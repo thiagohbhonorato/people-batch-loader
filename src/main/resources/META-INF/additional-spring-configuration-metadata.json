@@ -1,0 +1,7 @@
+{"properties": [
+  {
+    "name": "application.batch.inputPath",
+    "type": "java.lang.String",
+    "description": "File path for batch processing"
+  }
+]}
