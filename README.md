@@ -5,6 +5,7 @@ Essa aplicação foi desenvolvida para lidar com o carregamento de dados de um a
   - [Dependências](#dependências)
   - [Instalação](#instalação)
   - [Como usar](#como-usar)
+  - [Teste automatizado](#teste-automatizado)
 
 ## Dependências
 
@@ -26,7 +27,7 @@ O projeto utiliza o Spring Batch versão 4.3.3.
 ## Instalação
 Você pode clonar o repositório por meio do terminal apenas digitando:
 ```sh
-git clone https://github.com/thiagohbhonorato/people-batch-loader
+$ git clone https://github.com/thiagohbhonorato/people-batch-loader
 ```
 ## Como usar
 
@@ -56,3 +57,9 @@ Para fins de testes, a aplicação possui um endpoint para execução do carrega
 Em seguida acesse novamente o console do H2 e execute o SELECT na tabela PEOPLE. Com a execução do processo, a tabela agora possui os dados que foram carregados do arquivo CSV.
 
 ![table_loaded](https://github.com/thiagohbhonorato/people-batch-loader/blob/main/doc/table_loaded.png "Tabela PEOPLE")
+
+## Teste automatizado
+A aplicação foi construída com testes automatizados para melhorar a qualidade do projeto. Para executar os testes, utilize o comando a seguir por meio do terminal.
+```sh
+$ mvn test
+```
