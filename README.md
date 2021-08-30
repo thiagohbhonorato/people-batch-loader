@@ -29,6 +29,10 @@ Você pode clonar o repositório por meio do terminal apenas digitando:
 ```sh
 $ git clone https://github.com/thiagohbhonorato/people-batch-loader
 ```
+Após clonar o repositório, localize a pasta `/data` no projeto. Dentro dessa pasta existem dois arquivos com extensão CSV que são utilizados para execução da aplicação. Copie o cole esses arquivos em `C:\spring-batch-loader-file-data`. Caso precise definir outro caminho para a pasta, isso pode ser alterado no arquivo application.properties.
+
+![appprops](https://github.com/thiagohbhonorato/people-batch-loader/blob/main/doc/app.props.png "application.properties")
+
 ## Como usar
 
 ### Execução do projeto
